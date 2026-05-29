@@ -1,5 +1,7 @@
 # Agentic Loaders
 
+![Preview](public/preview.png)
+
 A collection of 38 animated pixel-art loaders built with React and HTML Canvas.
 
 Each loader renders on a tiny canvas (32/48/64px) with `requestAnimationFrame` for smooth animation. Loaders support single-color and two-color modes, with per-pixel color interpolation based on intensity.
