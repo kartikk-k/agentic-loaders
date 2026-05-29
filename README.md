@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Agentic Loaders
 
-## Getting Started
+A collection of 38 animated pixel-art loaders built with React and HTML Canvas.
 
-First, run the development server:
+Each loader renders on a tiny canvas (32/48/64px) with `requestAnimationFrame` for smooth animation. Loaders support single-color and two-color modes, with per-pixel color interpolation based on intensity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 38 animated pixel loaders
+- Single & two-color modes with per-pixel blending
+- Zoom control (1x-10x) with crisp pixel scaling
+- Copy React component code to clipboard
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Next.js 16
+- React 19
+- Tailwind CSS 4
+- HTML Canvas with `requestAnimationFrame`
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+Inspired by [Whimsy Loaders](https://whimsically.app) by [@aleksksaa](https://x.com/aleksksaa) — [original tweet](https://x.com/aleksksaa/status/2060045788676345888).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
